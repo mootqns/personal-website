@@ -1,6 +1,12 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
+@font-face { font-family: GT-Planar; src: 
+    url('../webfonts/grilli-type/Web/GT-Planar/GT-Planar-Black-Trial.woff2') format('woff2') }
+
+@font-face { font-family: GT-Super; src: 
+            url('../webfonts/grilli-type/Web/GT-Super/GT-Super-Text-Regular.woff2') format('woff2') }
+
 body {
     /* background-image: url("../images/tree-trunk.jpeg"); */
     background-color: c2c2c2;
@@ -16,10 +22,20 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 #header {
-    font-size: 23px;
+    font-family: 'GT-Super', Helvetica, Arial, sans-serif;
+    font-size: 27px;
+}
+
+#header h1 {
+    margin: 0px;
+}
+
+#body {
+    font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
 }
 
 #footer .icons {
