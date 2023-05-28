@@ -1,2 +1,2 @@
-# mootqns-me
-## personal website
+## https://mootqns.me/
+### creating a personal website
