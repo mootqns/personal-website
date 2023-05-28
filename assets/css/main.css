@@ -28,11 +28,21 @@ body {
 #header {
     font-family: 'GT-Super', Helvetica, Arial, sans-serif;
     font-size: 27px;
+    display: flex;
+    align-items: center;
 }
 
 #header h1 {
     margin: 0px;
+    margin-right: 17px;
 }
+
+#header img {
+    width: 150px;
+    height: auto;
+    border-radius: 25%;
+    order: 1;
+  }
 
 #body {
     font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
