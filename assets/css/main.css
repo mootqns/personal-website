@@ -8,14 +8,13 @@
             url('../webfonts/GT-Super-Text-Regular.woff2') format('woff2') }
 
 body {
-    /* background-image: url("../images/tree-trunk.jpeg"); */
     background-color: c2c2c2;
     color: #999999;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
+}
   
 .container {
   display: flex;
@@ -28,6 +27,10 @@ body {
     color: inherit;
     text-decoration: underline;
   }
+
+.link:hover {
+    color: #4B9DE9;
+}
 
 #header {
     font-family: 'GT-Super', Helvetica, Arial, sans-serif;
@@ -51,6 +54,7 @@ body {
 #body {
     font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
+    font-size: 21px;
 }
 
 #footer .icons {
@@ -69,9 +73,6 @@ body {
     border-bottom: none;
     position: relative; 
     transition: transform 0.3s, color 0.3s;
-}
-
-.icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -88,12 +89,12 @@ body {
     display: none; 
 }
 
-.icon.brands:before {
+.icon.brands{
     font-family: 'Font Awesome 5 Brands'; 
 }
 
 .icon:hover {
-    color: blue;
+    color: #4B9DE9;
     transform: scale(1.2);
 }
 
@@ -111,8 +112,8 @@ ul.icons li:last-child {
     padding-right: 0; 
 }
 
-ul.icons li .icon:before {
-    font-size: 18px; 
+ul.icons li .icon {
+    font-size: 20px; 
 }
 
 ul.icons li a {
