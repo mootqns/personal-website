@@ -139,9 +139,8 @@ ul.icons li a {
     }
   
     #header img {
-      width: 150px;
+      max-width: 750%; /* Adjust the max-width as needed */
       height: auto;
-      border-radius: 50%;
       order: -1;
     }
   
