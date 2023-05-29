@@ -1,22 +1,26 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-@font-face { font-family: GT-Planar; src: 
-    url('../webfonts/GT-Planar/GT-Planar-Black-Trial.woff2') format('woff2') }
+@font-face {
+  font-family: GT-Planar;
+  src: url('../webfonts/GT-Planar/GT-Planar-Black-Trial.woff2') format('woff2');
+}
 
-@font-face { font-family: GT-Super; src: 
-            url('../webfonts/GT-Super-Text-Regular.woff2') format('woff2') }
+@font-face {
+  font-family: GT-Super;
+  src: url('../webfonts/GT-Super-Text-Regular.woff2') format('woff2');
+}
 
 body {
-    opacity: 0;
-    background-color: c2c2c2;
-    color: #999999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  opacity: 0;
+  background-color: #e0e0e0;
+  color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-  
+
 .container {
   display: flex;
   justify-content: center;
@@ -25,98 +29,129 @@ body {
 }
 
 .link {
-    color: inherit;
-    text-decoration: underline;
-  }
+  color: inherit;
+  text-decoration: underline;
+}
 
 .link:hover {
-    color: #4B9DE9;
+  color: #4B9DE9;
 }
 
 #header {
-    font-family: 'GT-Super', Helvetica, Arial, sans-serif;
-    font-size: 27px;
-    display: flex;
-    align-items: flex-end;
+  font-family: 'GT-Super', Helvetica, Arial, sans-serif;
+  font-size: 27px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #header h1 {
-    margin: 0px;
-    margin-right: 65px;
+  margin: 0;
+  margin-right: 65px;
 }
 
 #header img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    order: 1;
-  }
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  order: 1;
+}
 
 #body {
-    font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
-    margin-bottom: 20px;
-    font-size: 21px;
+  font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 21px;
 }
 
 #footer .icons {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0;
-  }
-  
-  #footer .icons li {
-    margin-right: 15px;
-  }
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+#footer .icons li {
+  margin-right: 15px;
+}
 
 .icon {
-    text-decoration: none;
-    border-bottom: none;
-    position: relative; 
-    transition: transform 0.3s, color 0.3s;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 400; 
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  transition: transform 0.3s, color 0.3s;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  text-transform: none !important;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
 }
 
 .icon > .label {
-    display: none; 
+  display: none;
 }
 
-.icon.brands{
-    font-family: 'Font Awesome 5 Brands'; 
+.icon.brands {
+  font-family: 'Font Awesome 5 Brands';
 }
 
 .icon:hover {
-    color: #4B9DE9;
-    transform: scale(1.2);
+  color: #4B9DE9;
+  transform: scale(1.2);
 }
 
 ul.icons {
-    cursor: default;
-    list-style: none;
-    padding-left: 0; }
-    
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
 ul.icons li {
-    display: inline-block;
-    padding: 0 1em 0 0; 
+  display: inline-block;
+  padding: 0 1em 0 0;
 }
 
 ul.icons li:last-child {
-    padding-right: 0; 
+  padding-right: 0;
 }
 
 ul.icons li .icon {
-    font-size: 27px; 
+  font-size: 27px;
 }
 
 ul.icons li a {
-    color: inherit;
+  color: inherit;
+}
+
+/* Mobile optimization */
+
+@media (max-width: 768px) {
+  #header {
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+
+  #header h1 {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #header img {
+    width: 100
+    }
+
+    #body {
+    font-size: 18px;
+    }
+
+    #footer .icons li {
+    margin-right: 0.5rem;
+    }
+
+    ul.icons li .icon {
+    font-size: 22px;
+    }
 }
