@@ -8,6 +8,7 @@
             url('../webfonts/GT-Super-Text-Regular.woff2') format('woff2') }
 
 body {
+    opacity: 0;
     background-color: c2c2c2;
     color: #999999;
     display: flex;
@@ -36,18 +37,18 @@ body {
     font-family: 'GT-Super', Helvetica, Arial, sans-serif;
     font-size: 27px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #header h1 {
     margin: 0px;
-    margin-right: 17px;
+    margin-right: 65px;
 }
 
 #header img {
     width: 150px;
     height: auto;
-    border-radius: 25%;
+    border-radius: 50%;
     order: 1;
   }
 
