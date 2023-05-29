@@ -139,8 +139,10 @@ ul.icons li a {
     }
   
     #header img {
-      width: 100%;
-      order: -1; /* Change the order to display the image first */
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      order: -1;
     }
   
     #body {
