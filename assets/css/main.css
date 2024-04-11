@@ -48,7 +48,7 @@ hr {
 
 #header {
   font-family: 'GT-Super', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 25px;
   display: flex;
   align-items: flex-end;
 }
@@ -59,9 +59,9 @@ hr {
 }
 
 #header nav {
-  font-size: 20px;
+  font-size: 21px;
   margin: 0;
-  margin-left: 100px;
+  margin-left: 190px;
 }
 
 #header nav a {
@@ -76,7 +76,7 @@ hr {
 #body img {
   display: block;
   margin: 0 auto;
-  width: 500px;
+  width: 600px;
   height: auto;
   order: 1;
 }
@@ -144,7 +144,7 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 ul.icons li a {
@@ -167,6 +167,7 @@ ul.icons li a {
       align-items: center;
       flex-direction: column;
       margin: 1rem 0;
+      max-width: 90%;
     }
   
     #header {
