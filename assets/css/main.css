@@ -171,12 +171,18 @@ ul.icons li a {
     }
 
     #header {
-        font-size: 20px;
-        margin-bottom: 0.5rem; /* Increase margin bottom */
+        font-size: 18px; /* Decrease font size */
+        text-align: center; /* Center-align header content */
+        margin-bottom: 1rem; /* Increase margin bottom */
     }
 
     #header p {
         margin: 0; /* Reset margins */
+    }
+
+    #header nav {
+        font-size: 16px; /* Decrease font size */
+        margin: 0.5rem 0; /* Adjust margin */
     }
 
     #body img {
@@ -194,4 +200,3 @@ ul.icons li a {
         font-size: 22px;
     }
 }
-  
