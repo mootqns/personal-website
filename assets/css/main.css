@@ -154,47 +154,44 @@ ul.icons li a {
 /* mobile optimization */
 @media (max-width: 768px) {
     body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
     }
-  
+
     .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin: 1rem 0;
-      max-width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem 0;
+        max-width: 90%; /* Limit container width */
     }
-  
+
     #header {
-      font-size: 20px;
-      flex-wrap: wrap;
-      margin-bottom: 0;
+        font-size: 20px;
+        margin-bottom: 0.5rem; /* Increase margin bottom */
     }
-  
+
     #header p {
-      margin-right: 0;
-      margin-bottom: 0.25rem;
+        margin: 0; /* Reset margins */
     }
-  
+
     #body img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 1rem;
-      order: -1;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
     }
-  
+
     #body {
-      font-size: 18px;
-      margin-top: -1rem; /* Adjust the margin top as needed */
+        font-size: 18px;
+        margin-top: -1rem; /* Adjust the margin top as needed */
     }
-  
+
     ul.icons li .icon {
-      font-size: 22px;
+        font-size: 22px;
     }
-  }
+}
   
