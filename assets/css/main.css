@@ -21,6 +21,15 @@ body {
   min-height: 100vh;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -39,20 +48,36 @@ body {
 
 #header {
   font-family: 'GT-Super', Helvetica, Arial, sans-serif;
-  font-size: 27px;
+  font-size: 24px;
   display: flex;
   align-items: flex-end;
 }
 
-#header h1 {
+#home {
   margin: 0;
   margin-right: 65px;
 }
 
-#header img {
-  width: 150px;
+#header nav {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 100px;
+}
+
+#header nav a {
+  color: #b8bb26;
+  text-decoration: none;
+}
+
+#header nav a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+#body img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
   height: auto;
-  border-radius: 50%;
   order: 1;
 }
 
@@ -64,7 +89,7 @@ body {
 
 #footer .icons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   list-style: none;
   padding: 0;
 }
@@ -99,7 +124,7 @@ body {
 }
 
 .icon:hover {
-  color: #4B9DE9;
+  color: #b8bb26;
   transform: scale(1.2);
 }
 
@@ -119,7 +144,7 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon {
-  font-size: 27px;
+  font-size: 24px;
 }
 
 ul.icons li a {
