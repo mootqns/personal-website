@@ -173,37 +173,29 @@ ul.icons li a {
         align-items: center;
         flex-direction: column;
         margin: 1rem 0;
-        max-width: 90%; /* Limit container width */
+        max-width: 90%; 
     }
 
     #header {
-        font-size: 18px; /* Decrease font size */
-        text-align: center; /* Center-align header content */
-        margin-bottom: 1rem; /* Increase margin bottom */
-    }
-
-    #header p {
-        margin: 0; /* Reset margins */
+        font-size: 18px; 
     }
 
     #header nav {
-        font-size: 16px; /* Decrease font size */
-        margin: 0.5rem 0; /* Adjust margin */\
+        font-size: 16px; 
+        margin: 0;
         margin-left: auto;
     }
 
     #body img {
         max-width: 100%;
         height: auto;
-        margin-bottom: 1rem;
     }
 
     #body {
-        font-size: 16px;
-        margin-top: -1rem; /* Adjust the margin top as needed */
+        font-size: 12px;
     }
 
     ul.icons li .icon {
-        font-size: 22px;
+        font-size: 17px;
     }
 }
