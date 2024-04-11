@@ -176,12 +176,12 @@ ul.icons li a {
       margin-bottom: 0;
     }
   
-    #header h1 {
+    #header p {
       margin-right: 0;
       margin-bottom: 0.25rem;
     }
   
-    #header img {
+    #body img {
       max-width: 100%;
       height: auto;
       margin-bottom: 1rem;
