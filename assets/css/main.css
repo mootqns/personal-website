@@ -188,7 +188,8 @@ ul.icons li a {
 
     #header nav {
         font-size: 16px; /* Decrease font size */
-        margin: 0.5rem 0; /* Adjust margin */
+        margin: 0.5rem 0; /* Adjust margin */\
+        margin-left: auto;
     }
 
     #body img {
@@ -198,7 +199,7 @@ ul.icons li a {
     }
 
     #body {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: -1rem; /* Adjust the margin top as needed */
     }
 
