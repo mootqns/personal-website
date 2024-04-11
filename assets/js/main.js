@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $("body").animate({ opacity: 1 }, 1600);
-
+    // No animation, just set opacity to 1
+    $("body").css({ opacity: 1 });
 });
