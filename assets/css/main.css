@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .container {
@@ -40,11 +40,17 @@ hr {
     padding: 0;
 }
 
+/* date styling */
+#body .date {
+  color: #458588;
+  font-size: 19px;
+}
+
 
 /* header styling */
 #header {
   font-family: 'GT-Super', Helvetica, Arial, sans-serif;
-  font-size: 23px;
+  font-size: 21px;
   display: flex;
   align-items: flex-end;
 }
