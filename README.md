@@ -1,1 +1,1 @@
-### building a personal website
+### my personal website
