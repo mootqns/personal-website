@@ -14,7 +14,7 @@
 
 /* main styling */
 body {
-  opacity: 0;
+  opacity: 1;
   background-color: #f5f5f5;
   color: #999999;
   display: flex;
@@ -183,11 +183,11 @@ ul.icons li a {
     }
 
     #header {
-        font-size: 18px; 
+        font-size: 17px; 
     }
 
     #header nav {
-        font-size: 16px; 
+        font-size: 15px; 
         margin: 0;
         margin-left: auto;
     }
@@ -198,8 +198,14 @@ ul.icons li a {
     }
 
     #body {
-        font-size: 12px;
+        font-size: 13px;
     }
+
+    #body .date {
+      font-size: 11px;
+    }
+
+
 
     ul.icons li .icon {
         font-size: 17px;
