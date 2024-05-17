@@ -43,13 +43,13 @@ hr {
 /* date styling */
 #body .date {
   color: #458588;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 
 /* header styling */
 #header {
-  font-family: 'GT-Super', Helvetica, Arial, sans-serif;
+  font-family: 'GT-Planar', Helvetica, Arial, sans-serif;
   font-size: 21px;
   display: flex;
   align-items: flex-end;
