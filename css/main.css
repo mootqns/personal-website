@@ -1,0 +1,107 @@
+/* main styling */
+body {
+  font: normal 19px/1.25 serif;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 12px 0;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #ddd;
+}
+
+#header {
+  display: flex;
+}
+
+#header nav a {
+  color: #CB6D6D;
+  text-decoration: none;
+}
+
+#header nav a:hover {
+  text-decoration: underline;
+}
+
+#header nav {
+  margin-left: auto;
+}
+
+/* body styling */
+#body {
+  margin-bottom: 20px;
+}
+
+#body img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+
+
+/* footer styling */
+#footer .icons {
+  color: #CB6D6D;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer .icons li {
+  margin-right: 15px;
+}
+
+ul.icons {
+  list-style: none;
+  padding-left: 0;
+  cursor: default;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+ul.icons li .icon {
+  font-size: 21px;
+}
+
+ul.icons li a {
+  color: inherit;
+}
+
+/* icon base styling */
+.icon {
+  display: inline-block;
+  line-height: 1;
+  font-style: normal;
+  text-transform: none !important;
+  text-decoration: none;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+  position: relative;
+  transition: transform 0.3s, color 0.3s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon > .label {
+  display: none;
+}
+
+.icon.brands {
+  font-family: 'Font Awesome 5 Brands';
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
