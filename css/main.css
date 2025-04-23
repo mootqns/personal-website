@@ -1,8 +1,11 @@
 /* main styling */
 body {
-  font: normal 19px/1.25 serif;
+  font: normal 17px/1.4 serif;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 hr {
@@ -15,6 +18,12 @@ hr {
 
 #header {
   display: flex;
+  width: 100%;
+  max-width: 700px;
+}
+
+#header nav {
+  margin-left: auto;
 }
 
 #header nav a {
@@ -26,24 +35,27 @@ hr {
   text-decoration: underline;
 }
 
-#header nav {
-  margin-left: auto;
-}
-
 /* body styling */
 #body {
   margin-bottom: 20px;
+  max-width: 700px;
+  width: 100%;
 }
 
 #body img {
   display: block;
   margin: 0 auto;
-  width: 600px;
+  max-width: 100%;
+  max-height: 450px;
   height: auto;
 }
 
-
 /* footer styling */
+#footer {
+  width: 100%;
+  max-width: 700px;
+}
+
 #footer .icons {
   color: #CB6D6D;
   display: flex;
@@ -58,6 +70,7 @@ ul.icons {
   list-style: none;
   padding-left: 0;
   cursor: default;
+  margin: 0;
 }
 
 ul.icons li {
@@ -105,3 +118,26 @@ ul.icons li a {
 .icon:hover {
   transform: scale(1.2);
 }
+
+/* responsive styling */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0.75rem;
+  }
+
+  #body img {
+    max-height: 300px;
+  }
+
+  #header,
+  #body,
+  #footer {
+    max-width: 100%;
+  }
+
+  #footer .icons {
+    justify-content: center;
+  }
+}
+
