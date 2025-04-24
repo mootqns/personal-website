@@ -1,6 +1,6 @@
 /* main styling */
 body {
-  font: normal 17px/1.4 serif;
+  font: normal 18px/1.4 serif;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -38,7 +38,7 @@ hr {
 /* body styling */
 #body {
   margin-bottom: 20px;
-  max-width: 700px;
+  max-width: 650px;
   width: 100%;
 }
 
@@ -137,7 +137,7 @@ ul.icons li a {
   }
 
   #footer .icons {
-    justify-content: center;
+    justify-content: flex-end;
   }
 }
 
