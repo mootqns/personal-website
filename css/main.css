@@ -27,7 +27,7 @@ hr {
 }
 
 #header nav a {
-  color: #CB6D6D;
+  color: #e50053;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ hr {
 }
 
 #footer .icons {
-  color: #CB6D6D;
+  color: #e50053;
   display: flex;
   justify-content: flex-end;
 }
